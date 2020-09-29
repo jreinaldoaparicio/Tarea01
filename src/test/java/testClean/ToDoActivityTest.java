@@ -39,7 +39,7 @@ public class ToDoActivityTest {
         updateTask.saveButton.click(nameTask);
 
         // Verificacion
-        Assert.assertTrue("ERROR, la tarea no fue actualizada ",mainActivity.isDisplayedTask(nameTask));
+        Assert.assertTrue("ERROR, la tarea no fue actualizada ",mainActivity.isDisplayedTask(noteTask));
 
 
     }
